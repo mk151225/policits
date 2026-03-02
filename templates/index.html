@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election Campaign Assistant (Tamil Nadu)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div>
+                <h2 class="title">Election Campaign Assistant (Tamil Nadu)</h2>
+                <div class="subtitle">Ask about party symbol, proposed CM, slogan or party info.</div>
+            </div>
+            <div id="voice-status" class="small">Voice: Checking...</div>
+        </div>
+
+        <div class="controls">
+            <input
+                id="search-input"
+                class="search-input"
+                placeholder="Ask: 'symbol of DMK' or 'proposed cm of BJP'"
+            />
+            <button id="ask-btn" class="btn primary">Ask</button>
+            <button id="auto-speak-btn" class="btn ghost" title="Auto speak">Auto Speak: On</button>
+            <button id="speak-btn" class="btn secondary">Speak</button>
+            <button id="clear-btn" class="btn ghost">Clear</button>
+        </div>
+
+        <div id="result-container" class="result-card">
+            <div class="small">No result yet — ask a question above.</div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+:root{
+	--bg:#f4f7fb;
+	--card:#ffffff;
+	--muted:#6b7280;
+	--border:#e6eef8;
+	--accent:#2563eb;
+	--accent-600:#1e40af;
+	--glass: rgba(255,255,255,0.6);
+}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);margin:0;color:#0f172a}
+.app{max-width:960px;margin:28px auto;padding:24px;border-radius:14px;background:linear-gradient(180deg, rgba(255,255,255,0.85), rgba(250,252,255,0.85));box-shadow:0 8px 30px rgba(15,23,42,0.08);border:1px solid var(--border)}
+.header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.title{font-size:20px;margin:0;color:var(--accent-600)}
+.subtitle{color:var(--muted);font-size:13px;margin-top:6px}
+.controls{display:flex;gap:12px;margin-top:16px}
+.search-input{flex:1;padding:12px 14px;border:1px solid var(--border);border-radius:10px;background:var(--glass);outline:none;font-size:15px}
+.search-input:focus{box-shadow:0 6px 18px rgba(37,99,235,0.08);border-color:var(--accent)}
+.btn{padding:10px 14px;border-radius:10px;border:0;font-weight:600;cursor:pointer}
+.btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent-600));color:#fff}
+.btn.ghost{background:transparent;border:1px solid rgba(15,23,42,0.06);color:var(--accent-600)}
+.btn.secondary{background:#eef2ff;color:var(--accent-600)}
+.suggestions{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px}
+.sugg{padding:8px 12px;border-radius:999px;border:1px solid var(--border);background:#fff;color:var(--muted);cursor:pointer}
+.result-card{margin-top:20px;padding:18px;border-radius:12px;background:linear-gradient(180deg,#ffffff,#fbfdff);border:1px solid var(--border);box-shadow:0 6px 18px rgba(12,24,64,0.04)}
+.result-grid{display:flex;gap:18px;align-items:flex-start}
+.symbol-block{min-width:180px}
+.symbol-text{font-size:18px;font-weight:700;color:#111827}
+.party-block{flex:1}
+.spokentext{margin-top:12px;color:var(--muted);font-style:italic}
+.small{font-size:13px;color:var(--muted)}
+.img-symbol{width:160px;height:auto;border-radius:8px;border:1px solid #eef3ff}
+
+@media (max-width:720px){
+	.result-grid{flex-direction:column}
+	.search-input{font-size:14px}
+	.title{font-size:18px}
+}

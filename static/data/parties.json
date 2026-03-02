@@ -1,0 +1,112 @@
+{
+    "DMK": {
+        "name": "Dravida Munnetra Kazhagam",
+        "abbrev": "DMK",
+        "symbol": "Rising Sun",
+        "proposedCM": "M. K. Stalin",
+        "slogans": [
+            "seedhi maathiri olunga",
+            "people first"
+        ]
+    },
+    "AIADMK": {
+        "name": "All India Anna Dravida Munnetra Kazhagam",
+        "abbrev": "AIADMK",
+        "symbol": "Two Leaves",
+        "proposedCM": "Edappadi K. Palaniswami",
+        "slogans": [
+            "amma pathai",
+            "service to people"
+        ]
+    },
+    "BJP": {
+        "name": "Bharatiya Janata Party",
+        "abbrev": "BJP",
+        "symbol": "Lotus",
+        "proposedCM": "K. Annamalai",
+        "slogans": [
+            "sab ka saath sab ka vikas"
+        ]
+    },
+    "INC": {
+        "name": "Indian National Congress",
+        "abbrev": "INC",
+        "symbol": "Hand",
+        "proposedCM": "Alliance Based",
+        "slogans": [
+            "nyay"
+        ]
+    },
+    "PMK": {
+        "name": "Pattali Makkal Katchi",
+        "abbrev": "PMK",
+        "symbol": "Mango",
+        "proposedCM": "Dr. Anbumani Ramadoss",
+        "slogans": [
+            "social justice"
+        ]
+    },
+    "DMDK": {
+        "name": "Desiya Murpokku Dravida Kazhagam",
+        "abbrev": "DMDK",
+        "symbol": "Drum",
+        "proposedCM": "Vijayakanth",
+        "slogans": [
+            "captain for change"
+        ]
+    },
+    "MDMK": {
+        "name": "Marumalarchi Dravida Munnetra Kazhagam",
+        "abbrev": "MDMK",
+        "symbol": "Top",
+        "proposedCM": "Vaiko",
+        "slogans": [
+            "protect tamil rights"
+        ]
+    },
+    "VCK": {
+        "name": "Viduthalai Chiruthaigal Katchi",
+        "abbrev": "VCK",
+        "symbol": "Alliance Symbol",
+        "proposedCM": "Thol. Thirumavalavan",
+        "slogans": [
+            "social equality"
+        ]
+    },
+    "NTK": {
+        "name": "Naam Tamilar Katchi",
+        "abbrev": "NTK",
+        "symbol": "Farmer with Sugarcane",
+        "proposedCM": "Seeman",
+        "slogans": [
+            "naam tamilar"
+        ]
+    },
+    "MNM": {
+        "name": "Makkal Needhi Maiam",
+        "abbrev": "MNM",
+        "symbol": "Torch",
+        "proposedCM": "Kamal Haasan",
+        "slogans": [
+            "fight corruption"
+        ]
+    },
+    "AMMK": {
+        "name": "Amma Makkal Munnetra Kazhagam",
+        "abbrev": "AMMK",
+        "symbol": "Pressure Cooker",
+        "proposedCM": "T. T. V. Dhinakaran",
+        "slogans": [
+            "amma pathai"
+        ]
+    },
+    "TVK": {
+        "name": "Tamilaga Vettri Kazhagam",
+        "abbrev": "TVK",
+        "symbol": "Whistle",
+        "proposedCM": "Vijay",
+        "slogans": [
+            "youth leadership"
+        ]
+    }
+}
